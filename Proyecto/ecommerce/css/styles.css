@@ -16,8 +16,25 @@ h1 span{
 }
 
 .hero{
-    background-image: url(./proyecto/ecommerce/img/principal.jpg);
+    background-image: url(../img/principal.jpg);
     height: 25rem;
     background-size: cover;
     background-position: center center;
 }
+
+section .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #037BC0;
+}
+
+button{
+    background-color: rgb(rgb(110, 219, 60), green, blue);
+}
+
+
+/* body{
+    font-family: "Raleway", serif;
+    font-family: "Playfair Display", serif;
+} */
