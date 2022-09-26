@@ -21,17 +21,37 @@ h1 span{
     background-size: cover;
     background-position: center center;
 }
-
-section .main{
+.main{ 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+}
+
+.main #IMG1P{
+    background-color: white;
+    justify-items: center;
+    width: 600px;
+    height: 300px;
+}
+
+.main div{
+    
     background-color: #037BC0;
+    color:white;
+    text-align: center;
 }
 
 button{
-    background-color: rgb(rgb(110, 219, 60), green, blue);
+    color: white;
+    background-color: rgb(33, 122, 33);
+    border-radius: 10px;
+    text-decoration-line: none;
 }
+
+/* button{
+    background-color: rgb(rgb(110, 219, 60), green, blue);
+} */
 
 
 /* body{
