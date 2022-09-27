@@ -31,7 +31,7 @@ h1 span{
 .main #IMG1P{
     background-color: white;
     justify-items: center;
-    width: 600px;
+    width: 700px;
     height: 300px;
 }
 
@@ -42,11 +42,48 @@ h1 span{
     text-align: center;
 }
 
-button{
+.button{
     color: white;
-    background-color: rgb(33, 122, 33);
+    background-color: rgb(63, 187, 63);
+    border: transparent;
     border-radius: 10px;
-    text-decoration-line: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-container img{
+    justify-items:center;
+    width: 100%;
+    height: auto;
+}
+
+.grid-container .info{
+    background-color: #037BC0;
+    color:white;
+    text-align: center;
+}
+
+.grid-container_2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container_2 img{
+    justify-items:center;
+    width: 100%;
+    height: auto;
+}
+
+.grid-container_2 .info{
+    background-color: #037BC0;
+    color:white;
+    text-align: center;
 }
 
 /* button{
