@@ -17,49 +17,54 @@
 <body>
     <h1 id="titles" class="my-3">Tienda de <span>Muebles</span></h1>
     <header class="py-2"></header>
-        <div class="border-top py-4">
-            <div class="navbar navbar-expand-lg container navbar-light">
-                <a class="navbar-brand nombre-sitio d-lg-none fs-2 fw-bold text-uppercase" href="index.html">
-                    Tienda Muebles
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="navegacion" class="collapse navbar-collapse">
-                    <nav class="navbar-nav container d-flex flex-md-row justify-content-md-between text-center">
-                        <a class="text-dark text-decoration-none" href="#">Inicio</a>
-                        <a class="text-dark text-decoration-none" href="#">Nosotros</a>
-                        <a class="text-dark text-decoration-none" href="#">Tienda</a>
-                        <a class="text-dark text-decoration-none" href="#">Blog</a>
-                        <a class="text-dark text-decoration-none" href="#">Galería</a>
-                        <a class="text-dark text-decoration-none" href="#">Contacto</a>
-                    </nav>
-                </div>
+    <div class="border-top py-4">
+        <div class="navbar navbar-expand-lg container navbar-light">
+            <a class="navbar-brand nombre-sitio d-lg-none fs-2 fw-bold text-uppercase" href="index.html">
+                Tienda Muebles
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navegacion" class="collapse navbar-collapse">
+                <nav class="navbar-nav container d-flex flex-md-row justify-content-md-between text-center">
+                    <a class="text-dark text-decoration-none" href="#">Inicio</a>
+                    <a class="text-dark text-decoration-none" href="#">Nosotros</a>
+                    <a class="text-dark text-decoration-none" href="#">Tienda</a>
+                    <a class="text-dark text-decoration-none" href="#">Blog</a>
+                    <a class="text-dark text-decoration-none" href="#">Galería</a>
+                    <a class="text-dark text-decoration-none" href="#">Contacto</a>
+                </nav>
             </div>
         </div>
+    </div>
+
     <div class="hero"></div>
     <div>
         <h2 id="titles" class="text-center my-4">Nuestros Productos</h2>
     </div>
     <!-- Sección 1-->
-    <div>
+    <div class="container">
         <section class="Product1">
-            <main class="main">
-                <img id="IMG1P" src="./img/producto1.jpg" alt="mueble1">
-                <div class="product1">
-                    <h3>Producto 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-                        numquam, dignissimos placeat voluptatum quasi molestiae veritatis laudantium
-                        fuga nihil ad ab praesentium soluta eos facere consequatur unde tenetur,
-                        debitis quae!</p>
-                    <h3>12.000.00</h3>
-                    <a href="#"><button class="button" type="button">Agregar al carrito</button></a>
+            <div class="row">
+                <div class="col">
+                    <img class="img-fluid" id="IMG1P" src="./img/producto1.jpg" alt="mueble1">
                 </div>
-            </main>
+                <div class="col">
+                    <div class="product1 text-center py-5">
+                        <h3>Productco 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                            numquam, dignissimos placeat voluptatum quasi molestiae veritatis laudantium
+                            fuga nihil ad ab praesentium soluta eos facere consequatur unde tenetur,
+                            debitis quae!</p>
+                        <h3>12.000.00</h3>
+                        <a href="#"><button class="button" type="button">Agregar al carrito</button></a>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
     <!-- Sección 2-->
-    <div class="grid-container">
+    <div class="grid-container container">
         <img id="IMG2P" src="./img/producto2.jpg" alt="mueble2">
         <img id="IMG3P" src="./img/producto3.jpg" alt="mueble3">
         <div class="info">
@@ -82,7 +87,7 @@
         </div>
     </div>
     <!-- Sección 3-->
-    <div class="grid-container_2">
+    <div class="grid-container_2 container">
         <img id="IMG4P" src="./img/producto4.jpg" alt="mueble4">
         <img id="IMG5P" src="./img/producto5.jpg" alt="mueble5">
         <img id="IMG6P" src="./img/producto6.jpg" alt="mueble6">
@@ -116,7 +121,7 @@
     </div>
     <h2 id="titles" class="text-center my-4">Categorías de Productos</h2>
     <!--Sección 4-->
-    <div class="grid-container_3">
+    <div class="grid-container_3 container">
         <img id="IMG7P" src="./img/categoria1.jpg" alt="categoria1">
         <img id="IMG8P" src="./img/categoria2.jpg" alt="categoria2">
         <img id="IMG9P" src="./img/categoria3.jpg" alt="categoria3">
