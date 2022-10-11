@@ -31,6 +31,15 @@ h3 {
 
 /* Classes */
 
+
+@media (min-width: 768px){
+.product1 img{
+    height: 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+}
+
 .text-center{
     text-align: center;
 }
@@ -39,8 +48,15 @@ h3 {
     background-image: url(../img/principal.jpg);
     height: 25rem;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
+
+/* .IMG1P{
+    height: 25rem;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+} */
 /* .main{ 
     display: flex;
     align-items:auto;
