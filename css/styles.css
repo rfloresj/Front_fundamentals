@@ -5,6 +5,7 @@ body{
 
 #titles{
     font-family: "Playfair Display", serif;
+    font-weight: bold;
 }
 
 #navegacion #navbar a{
@@ -30,15 +31,6 @@ h3 {
 }
 
 /* Classes */
-
-
-@media (min-width: 768px){
-.product1 img{
-    height: 45rem;
-    width: 100%;
-    object-fit: cover;
-}
-}
 
 .text-center{
     text-align: center;
@@ -100,7 +92,17 @@ h3 {
     padding: 5px;
 }
 
-.grid-container{
+.info{
+    color: white;
+}
+
+.categories a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* .grid-container{
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -132,9 +134,9 @@ h3 {
     background-color: #037BC0;
     color:white;
     text-align: center;
-}
+} */
 
-.grid-container_3{
+/* .grid-container_3{
     display: grid;
     grid-template-columns: auto auto auto;
 }
@@ -148,7 +150,7 @@ h3 {
     color: black;
     text-align: center;
     text-decoration: none;
-}
+} */
 
 /* Footer */
 
@@ -180,3 +182,11 @@ footer div .categories{
     font-family: "Raleway", serif;
     font-family: "Playfair Display", serif;
 } */
+
+@media (min-width: 768px){
+    .product1 img{
+        height: 45rem;
+        width: 100%;
+        object-fit: cover;
+    }
+    }
