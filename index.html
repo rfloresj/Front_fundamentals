@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -19,9 +19,9 @@
     <header class="py-2"></header>
     <div class="border-top py-4">
         <div class="navbar navbar-expand-lg container navbar-light">
-            <a class="navbar-brand nombre-sitio d-lg-none fs-2 fw-bold text-uppercase" href="index.html">
+            <a class="navbar-brand d-lg-none fs-2 fw-bold" href="index.html">
                 Tienda Muebles
-        </a>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,148 +39,174 @@
     </div>
 
     <div class="hero mb-5"></div>
-    <div>
-        <h2 id="titles" class="text-center">Nuestros Productos</h2>
-    </div>
-    <!-- Sección 1-->
     
+    <h2 id="titles" class="text-center">Nuestros Productos</h2>
+    
+    <!-- Sección 1-->
     <div class="container-xl">
-        <div class="row pt-5 mx-1">
-            <div class="col-md-8 product1 g-0">
+        <div class="row pt-5 g-0">
+            <div class="col-md-8 product_1">
                 <img class="img-fluid" src="./img/producto1.jpg" alt="mueble1">
             </div>
-            <div class="info col-md-4 bg-primary text-center p-5">
+            <div id="" class="col-md-4 info d-flex flex-column text-center text-wrap justify-content-center p-5">
                     <h3>Producto 1</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-                        numquam, dignissimos placeat voluptatum quasi molestiae veri<!--  -->tatis laudantium
-                        fuga nihil ad ab praesentium soluta eos facere consequatur unde tenetur,
-                        debitis quae!</p>
-                    <h3>12.000.00</h3>
-                    <a href="#"><button class="button" type="button">Agregar al carrito</button></a>
+                        numquam, dignissimos placeat voluptatum quasi molestiae veri
+                        tatis laudantium fuga nihil ad ab praesentium soluta eos
+                        facere consequatur unde tenetur,debitis quae!
+                    </p>
+                    <h3>$12.000.00</h3>
+                    <a href="#" class="button btn btn-lg p-2 shadow-sm">Agregar al carrito</a>
             </div>
         </div>
-    </div>
+    
 
     <!-- Sección 2-->
 
-    <div class="container-xl">
         <div class="row">
-            <div class="col-md-6 p-3">
+            <div class="col-md-6 pt-4">
                 <img class="img-fluid" src="./img/producto2.jpg" alt="mueble2">
-                    <div class="info text-center p-5 bg-primary">
-                        <h3>Producto 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <div class="info d-flex flex-column justify-content-center text-center p-3">
+                    <h3>Producto 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quaerat deleniti commodi alias repellat et amet sunt
                         iure recusandae quas! Quos quam a harum minus?
                         Nemo eveniet error ipsa illo natus.</p>
-                        <h3>12.000.00</h3>
-                        <a href="#"><button class="button" type="button">Agregar al carrito</button></a>
-                    </div>
+                    <h3>$12.000.00</h3>
+                    <a href="#" class="button btn btn-lg p-2 shadow-sm">Agregar al carrito</a>
+                </div>
             </div>
-            <div class="col-md-6 p-3">
+            <div class="col-md-6 pt-4">
                 <img class="img-fluid" src="./img/producto3.jpg" alt="mueble3">
-                    <div class="info text-center p-5 bg-primary">
-                        <h3>Producto 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quaerat deleniti commodi alias repellat et amet sunt
-                            iure recusandae quas! Quos quam a harum minus?
-                            Nemo eveniet error ipsa illo natus.</p>
-                        <h3>12.000.00</h3>
-                        <a href="#"><button class="button" type="button">Agregar al carrito</button></a>
-                    </div>
+                <div class="info d-flex flex-column justify-content-center text-center p-3">
+                    <h3>Producto 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quaerat deleniti commodi alias repellat et amet sunt
+                        iure recusandae quas! Quos quam a harum minus?
+                        Nemo eveniet error ipsa illo natus.</p>
+                    <h3>$12.000.00</h3>
+                    <a href="#" class="button btn btn-lg p-2 shadow-sm">Agregar al carrito</a>
+                </div>
             </div>
         </div>
-    </div>
 
     <!--Sección 3-->
 
-    <div class="container-xl">
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row ">
+            <div class="col-md-4 pt-4">
                 <img class="img-fluid" src="./img/producto4.jpg" alt="mueble4">
-                <div class="info text-center p-5 bg-primary">
+                <div class="info d-flex flex-column justify-content-center text-center p-5">
                     <h3>Producto 4</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quaerat deleniti commodi alias repellat et amet sunt
                         iure recusandae quas! Quos quam a harum minus?
                         Nemo eveniet error ipsa illo natus.</p>
-                    <h3>12.000.00</h3>
-                    <a href="#"><button class="button" type="button">Agregar al carrito</button></a>
+                    <h3>$12.000.00</h3>
+                    <a href="#" class="button btn btn-lg shadow-sm">Agregar al carrito</a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 pt-4">
                 <img class="img-fluid" src="./img/producto5.jpg" alt="mueble5">
-                <div class="info text-center p-5 bg-primary">
+                <div class="info d-flex flex-column justify-content-center text-center p-5">
                     <h3>Producto 5</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quaerat deleniti commodi alias repellat et amet sunt
                         iure recusandae quas! Quos quam a harum minus?
                         Nemo eveniet error ipsa illo natus.</p>
-                    <h3>12.000.00</h3>
-                    <a href="#"><button class="button" type="button">Agregar al carrito</button></a>
+                    <h3>$12.000.00</h3>
+                    <a href="#" class="button btn btn-lg shadow-sm">Agregar al carrito</a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 pt-4">
                 <img class="img-fluid" src="./img/producto6.jpg" alt="mueble6">
-                <div class="info text-center p-5 bg-primary">
+                <div class="info d-flex flex-column justify-content-center text-center p-5">
                     <h3>Producto 6</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quaerat deleniti commodi alias repellat et amet sunt
                         iure recusandae quas! Quos quam a harum minus?
                         Nemo eveniet error ipsa illo natus.</p>
-                    <h3>12.000.00</h3>
-                    <a href="#"><button class="button" type="button">Agregar al carrito</button></a>
+                    <h3>$12.000.00</h3>
+                    <a href="#" class="button btn btn-lg shadow-sm">Agregar al carrito</a>
                 </div>
             </div>
         </div>
     </div>
-    <h2 id="titles" class="text-center my-4">Categorías de Productos</h2>
+
+    <h2 class="titles text-center my-4">Categorías de Productos</h2>
 
     <!-- Sección 4 -->
 
     <div class="container-xl">
-        <div class="categories row">
-            <div class="col-md-4"><img class="img-fluid" src="./img/categoria1.jpg" alt="categoria1">
-                <a href="#">Oficina</a></div>
-            <div class="col-md-4"><img class="img-fluid" src="./img/categoria2.jpg" alt="categoria2">
-                <a href="#">Hogar</a></div>
-            <div class="col-md-4"><img class="img-fluid" src="./img/categoria3.jpg" alt="categoria3">
-                <a href="#">Cocina</a></div>      
+        <div class="categories row pt-2">
+            <div class="ctgy col-md-4">
+                <div class="overflow-hidden">
+                    <img class="img-fluid" src="./img/categoria1.jpg" alt="categoria1">
+                </div>
+                <a class="d-block text-center py-4 fs-4" href="#">Oficina</a>
+            </div>
+            <div class="ctgy col-md-4">
+                <div class="overflow-hidden">
+                    <img class="img-fluid" src="./img/categoria2.jpg" alt="categoria2">
+                </div>
+                <a class="d-block text-center py-4 fs-4" href="#">Hogar</a>
+        </div>
+            <div class="ctgy col-md-4">
+                <div class="overflow-hidden">
+                    <img class="img-fluid" src="./img/categoria3.jpg" alt="categoria3">
+                </div>
+                <a class="d-block text-center py-4 fs-4" href="#">Cocina</a>
+            </div>
         </div>
     </div>
-    
+
     <!-- Footer -->
 
-    <footer class="footer">
-        <div>
-            <h3 id="titles" class="categories">Categorias</h3>
+    <div class="border-top my-2"></div>
+    <div class="container-xl">
+        <div class="row py-4">
+            <div class="col-md-4">
+                <div class="titles d-flex flex-column text-center categories">
+                    <div>
+                        <h3 class="display-6">Categorias</h3>
+                    </div>
+                    <div class="mt-2 p-1"><a href="#">Cocina</a></div>
+                    <div class="p-1"><a href="#">Oficina</a></div>
+                    <div class="p-1"><a href="#">Jardín</a></div>
+                    <div class="p-1"><a href="#">Cochera</a></div>
+                    <div class="p-1"><a href="#">Dormitorios</a></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="titles d-flex flex-column text-center categories">
+                    <div>
+                        <h3 class="cat display-6">Sobre Nosotros</h3>
+                    </div>
+                    <div class="mt-2 p-1"><a href="#">Nuestra Historia</a></div>
+                    <div class="p-1"><a href="#">Misión, Visión, Valores</a></div>
+                    <div class="p-1"><a href="#">Carreras</a></div>
+                    <div class="p-1"><a href="#">Política de privacidad</a></div>
+                    <div class="p-1"><a href="#">Términos del servicio</a></div>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="titles d-flex flex-column text-center categories">
+                    <div>
+                        <h3 class="cat display-6">Soporte</h3>
+                    </div>
+                    <div class="mt-2 p-1"><a href="#">Preguntas frecuentes</a></div>
+                    <div class="p-1"><a href="#">Ayuda en Línea</a></div>
+                    <div class="p-1"><a href="#">Confianza y Seguridad</a></div>
+                </div>
+            </div>
         </div>
-        <div>
-            <h3 id="titles" class="categories">Sobre Nosotros</h3>
+        <div class="col-md-12">
+            <div class="row fs-5 text-center">
+                <p>Todos los derechos Reservados. TiendaMuebles</p>
+            </div>
         </div>
-        <div>
-            <h3 id="titles" class="categories">Soporte</h3>
-        </div>
-        <nav class="options">
-            <a href="#">Cocina</a>
-            <a href="#">Oficina</a>
-            <a href="#">Jardín</a>
-            <a href="#">Cochera</a>
-            <a href="#">Dormitorios</a>
-        </nav>
-        <nav class="options">
-            <a href="#">Nuestra Historia</a>
-            <a href="#">Misión, Visión, Valores</a>
-            <a href="#">Carreras</a>
-            <a href="#">Política de privacidad</a>
-            <a href="#">Términos del servicio</a>
-        </nav>
-        <nav class="options">
-            <a href="#">Preguntas frecuentes</a>
-            <a href="#">Ayuda en Línea</a>
-            <a href="#">Confianza y Seguridad</a>
-        </nav>
-    </footer>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

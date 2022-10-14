@@ -3,18 +3,13 @@ body{
     font-size: "62.5";
 }
 
-#titles{
-    font-family: "Playfair Display", serif;
-    font-weight: bold;
-}
-
 #navegacion #navbar a{
     color: black;
     text-decoration: none;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -23,17 +18,24 @@ h1 span{
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h3 {
-    font-size: 4rem;
+    font-size: 2rem;
+}
+
+.ctgy img:hover{
+    transform: scale(1.2);
+    transition-property: transform;
+    transition-duration: 300ms;
 }
 
 /* Classes */
 
-.text-center{
-    text-align: center;
+.titles{
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
 }
 
 .hero{
@@ -43,64 +45,49 @@ h3 {
     background-position: center center;
 }
 
-/* .IMG1P{
-    height: 25rem;
-    width:100%;
-    background-size: cover;
-    background-position: center;
-} */
-/* .main{ 
-    display: flex;
-    align-items:auto;
-    align-self: center;
-    flex-direction: row;
-    max-width: 100%;
-    height: 45rem;
-} */
 
-/* .main #IMG1P{
-    background-color: white;
-    background-size: cover;
-    background-position: start;
-    width: 56%;
-    height:100%;
-} */
 
-/* .main .product1{
-    background-color: #037BC0;
-    align-self: center;
-    justify-content:center;
-    width:44%;
-    height:100%;
-} */
-/* .main div{
-    background-color: #037BC0;
-    color:white;
-    text-align: center;
-    max-width: 1200px;
-    width: 100%;
-    height: 100%;
-}
- */
 .button{
     color: white;
     background-color: #8cbc00;
-    border: transparent;
     border-radius: 10px;
     text-decoration: none;
-    margin-bottom: 20px;
-    padding: 5px;
+    margin: 20px 0px 20px;
+
 }
 
 .info{
     color: white;
+    background-color: #037BC0;
 }
 
 .categories a{
     color: black;
-    text-align: center;
     text-decoration: none;
 }
+
+/* Media Queries */
+
+@media (min-width: 768px){
+    .product_1 img{
+        height: 43rem;
+        width: 100%;
+        object-fit: cover;
+    }
+    .hero
+        {
+            background-image: url(../img/principal.jpg);
+            height: 55rem;
+            background-size: cover;
+            background-position: center center;
+        }
+    }
+
+    @media (max-width: 768px){
+        .cat{
+            padding-top: 2rem;
+        }
+    }
 
 /* .grid-container{
     display: grid;
@@ -152,25 +139,44 @@ h3 {
     text-decoration: none;
 } */
 
-/* Footer */
 
-footer{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content:space-evenly;
-    justify-items: center;
-}
+/* .IMG1P{
+    height: 25rem;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+} */
+/* .main{ 
+    display: flex;
+    align-items:auto;
+    align-self: center;
+    flex-direction: row;
+    max-width: 100%;
+    height: 45rem;
+} */
 
-footer .options a{
-    display: block;
+/* .main #IMG1P{
+    background-color: white;
+    background-size: cover;
+    background-position: start;
+    width: 56%;
+    height:100%;
+} */
+
+/* .main .product1{
+    background-color: #037BC0;
+    align-self: center;
+    justify-content:center;
+    width:44%;
+    height:100%;
+} */
+/* .main div{
+    background-color: #037BC0;
+    color:white;
     text-align: center;
-    font-size: small;
-    color: black;
-    text-decoration: none;
-}
-
-footer div .categories{
-    margin-bottom: 5px;
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
 }
 
 /* button{
@@ -182,11 +188,3 @@ footer div .categories{
     font-family: "Raleway", serif;
     font-family: "Playfair Display", serif;
 } */
-
-@media (min-width: 768px){
-    .product1 img{
-        height: 45rem;
-        width: 100%;
-        object-fit: cover;
-    }
-    }
